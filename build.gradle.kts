@@ -46,6 +46,7 @@ kotlin {
 
         registries {
             github {
+                uri.set("https://npm.pkg.github.com/dimitrisBoutas/flow-kotlin-js")
                 dry.set(false)
                 authToken.set(System.getenv("GITHUB_TOKEN"))
             }
